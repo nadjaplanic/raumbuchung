@@ -1,0 +1,308 @@
+body{
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+#logo{
+height: 15%;
+width: 15%;
+position: relative;
+padding-left:  20px;
+padding-top: 5px;
+padding-right: 20px;
+float: right;
+margin: 10px;
+}
+
+nav.nav-pills.nav-fill{
+    float: left;
+    position: relative;
+    padding: 50px;
+    margin: 50px;
+}
+
+.nav-item.nav-link{
+    color: #b6190e;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-item.nav-link.active{
+    color:white;
+    background-color: #b6190e;
+}
+
+.content{
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 0px auto;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    left: 100px;
+}
+
+.export{
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-family:  sans-serif;
+}
+
+.fas.fa-file-csv{
+    color: #505456;
+    position: center;
+    font-size: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fas.fa-file-excel{
+    color: #505456;
+    position: center;
+    font-size: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #b6190e;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+ }
+
+ 
+.date{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    width: 52px;
+    height: 32px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #b6190e;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px grey;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 44px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+[type="date"]::-webkit-inner-spin-button {
+    float: left;
+  }
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  label {
+   text-align: justify;
+   display: inline-block;
+   font-family: sans-serif;
+   position: absolute;
+  }
+
+  input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 190px;
+    margin: 20px;
+    float: right;
+  }
+
+  .box1, .box2, .box3{
+    padding: 20px;
+    background: blueviolet;
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    position: absolute;
+    margin-right: 2%;
+  }
+
+  .box3{
+      margin-right: 0;
+  }
+
+  .label{
+      text-align: justify;
+      display: inline-block;
+      font-family: sans-serif;
+      position: absolute;
+  }
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 285px;
+    margin: -200px 0 0 -150px;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+input {
+      outline: none;
+      display: block;
+      width: 100%;
+      margin: 0 0 20px;
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      color: #ccc;
+      font-family: sans-serif;
+      box-sizing: border-box;
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: 0.2s linear;
+    }
+input:focus {
+        color: #333;
+        border: 1px solid #44c4e7;
+      }
+button {
+      cursor: pointer;
+      background: #ad1c12;
+      width: 100%;
+      padding: 10px 15px;
+      border: 0;
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+    }
+button:hover {
+        background: #b6190e;
+      }
+
+  
+.error, .valid{display:none;}
+
+h2{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#display-flex{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.input{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: auto;
+    position: relative;
+}
+
+.btn.btn-lg.btn-primary{
+    background:#b6190e;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.download{
+    background:#b6190e;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 15px;
+    width: auto;
+}
