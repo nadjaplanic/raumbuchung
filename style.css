@@ -57,7 +57,7 @@ nav.nav-pills.nav-fill{
 .fas.fa-file-csv{
     color: #505456;
     position: center;
-    font-size: 300px;
+    font-size: 100px;
     padding: 20px;
     margin: 20px;
 }
@@ -65,9 +65,17 @@ nav.nav-pills.nav-fill{
 .fas.fa-file-excel{
     color: #505456;
     position: center;
-    font-size: 300px;
+    font-size: 100px;
     padding: 20px;
     margin: 20px;
+}
+
+.fas.fa-file-pdf{
+  color: #505456;
+  position: center;
+  font-size: 100px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .link{
