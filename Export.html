@@ -17,20 +17,19 @@
     </ul>
 </nav>
   <body>
+    <main>
       <hr>
-    <div class="content">
-      <!--Showing the Booking Data from the Database in Form of a Table-->
+    <div class="content">      
        <!--Offering Export Options for the Booking Data-->
-      <hr>
     <div class="export"><i class="fas fa-file-csv"></i><p><button class="download" onclick="download_csv()" data-export="export">CSV EXPORT</button></p></div>
-    <script src="Download.js" crossorigin="anonymous"></script>
     <div class="export"><i class="fas fa-file-excel"></i><p><button class="download" onclick="download_xml()">XML EXPORT</button></p></div>
-    <div class="export"><i class="fas fa-file-pdf"></i><p><button class="download" onclick="pdf()">PDF EXPORT</button></p></div>
+    <div class="export"><i class="fas fa-file-pdf"></i><p><button class="download" onclick="download_pdf()">PDF EXPORT</button></p></div>
+    <script src="Download.js" crossorigin="anonymous"></script>
     </div>
+  </main>
+      <footer>
+          <hr>
+          <p>© 2021 Rennbraten GmbH</p>
+      </footer>
   </body>
-
-<footer>
-    <hr>
-    <p>© 2021 Rennbraten GmbH</p>
-</footer>
 </html>
