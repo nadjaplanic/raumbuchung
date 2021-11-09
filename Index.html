@@ -18,21 +18,30 @@
   </head>
     <nav>
         <ul class="nav nav-pills nav-fill">
-            <li><a class="nav-item nav-link" href="Index.html">Übersicht</a></li>
+            <li><a class="nav-item nav-link active" href="Index.html">Übersicht</a></li>
             <li><a class="nav-item nav-link" href="Booking.html">Buchung</a></li>
-            <li><a class="nav-item nav-link active" href="Export.html">Export</a></li>
+            <li><a class="nav-item nav-link" href="Export.html">Export</a></li>
         </ul>
     </nav>
       <body>
         <main>
           <hr>
+
+                          <!--switch the date-->
+
+                          <div class="date-switch">
+                            <input type="date" id="date" name="date">
+                            <label for="date">Datum wählen:</label>
+                            <input type="submit" class="btn btn-primary">
+                        </div>
+                        
                 <!--Show the Data for Bookings-->
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 1</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
+                      <h4 class="card-title"><b>Raum 1</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -42,7 +51,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -57,10 +66,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 2</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 34 Personen.</p>
+                      <h4 class="card-title"><b>Raum 2</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 34 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -70,7 +79,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -85,10 +94,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 3</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 46 Personen.</p>
+                      <h4 class="card-title"><b>Raum 3</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 46 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -98,7 +107,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -113,10 +122,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 4</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 30 Personen.</p>
+                      <h4 class="card-title"><b>Raum 4</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 30 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -126,7 +135,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -141,10 +150,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 1</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
+                      <h4 class="card-title"><b>Raum 5</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -154,7 +163,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -169,10 +178,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 5</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
+                      <h4 class="card-title"><b>Raum 6</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 36 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -182,7 +191,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -197,10 +206,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 6</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 36 Personen.</p>
+                      <h4 class="card-title"><b>Raum 7</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -210,7 +219,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -225,10 +234,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 7</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
+                      <h4 class="card-title"><b>Raum 8</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 34 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -238,35 +247,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
-
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Some text in the Modal..</p>
-                        </div>
-
-                        </div>
-                </div>
-
-                <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
-                    <div class="wrap">
-                      <h4><b>Raum 8</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 34 Personen.</p>
-                    </div>
-
-                <!--Utilization-->
-
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" >25%</div>
-                    </div>
-
-                 <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -282,10 +263,10 @@
 
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 9</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
+                      <h4 class="card-title"><b>Raum 9</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -295,7 +276,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -310,10 +291,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Raum 10</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
+                      <h4 class="card-title"><b>Raum 10</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 40 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -323,7 +304,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -338,10 +319,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Gruppenraum</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 18 Personen.</p>
+                      <h4 class="card-title"><b>Gruppenraum</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 18 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -351,7 +332,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -366,10 +347,10 @@
                 </div>
 
                 <div class="card">
-                    <img class="avatar" src="image1.png" alt="Avatar">
+                    <img class="card-img-top" src="image1.png" alt="Avatar">
                     <div class="wrap">
-                      <h4><b>Audimax</b></h4>
-                      <p>Dieser Raum hat eine Kapazität von max. 52 Personen.</p>
+                      <h4 class="card-title"><b>Audimax</b></h4>
+                      <p class="card-text">Dieser Raum hat eine Kapazität von max. 52 Personen.</p>
                     </div>
 
                 <!--Utilization-->
@@ -379,7 +360,7 @@
                     </div>
 
                  <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Mehr Informationen</button>
+                        <button class="btn btn-primary" id="myBtn">Mehr Informationen</button>
 
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -392,6 +373,14 @@
 
                         </div>
                 </div>
+
+                <!--switch the view-->
+        
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"> Einzelübersicht aktivieren</label>
+                  </div>
+
          </main>
     <footer>
         <hr>
