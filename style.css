@@ -593,3 +593,11 @@ h2{
 .fas.fa-desktop.fa-10x{
   padding-bottom: 20px;
 }
+
+a:active{
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
