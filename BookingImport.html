@@ -14,20 +14,19 @@
   </head>
   <nav>
     <ul class="nav nav-pills nav-fill">
-      <li><a class="nav-item nav-link" href="Index.html">Übersicht</a></li>
-      <li><a class="nav-item nav-link" href="BookingImport.html">Buchung</a></li>
-      <li><a class="nav-item nav-link active" href="Export.html">Export</a></li>
-  </ul>
+        <li><a class="nav-item nav-link" href="Index.html">Übersicht</a></li>
+        <li><a class="nav-item nav-link active" href="BookingImport.html">Buchung</a></li>
+        <li><a class="nav-item nav-link" href="Export.html">Export</a></li>
+    </ul>
 </nav>
   <body>
     <main>
       <hr>
     <div class="content">      
-       <!--Offering Export Options for the Booking Data-->
-    <div class="export"><i class="fas fa-file-csv"></i><p><button class="download" onclick="download_csv()" data-export="export">CSV EXPORT</button></p></div>
-    <div class="export"><i class="fas fa-file-excel"></i><p><button class="download" onclick="download_xml()">XML EXPORT</button></p></div>
-    <div class="export"><i class="fas fa-file-pdf"></i><p><button class="download" onclick="download_pdf()">PDF EXPORT</button></p></div>
-    <script src="Download.js" crossorigin="anonymous"></script>
+       <!--Offering Options for the Booking Data-->
+    <div class="import"><i class="fas fa-upload fa-10x"></i><p><button class="download" onclick="import_csv()" data-export="export">CSV IMPORT</button></p></div>
+    <div class="import"><i class="fas fa-desktop fa-10x"></i><p><a href="Booking.html" class="download">Manuelle Buchung</a></p></div>
+    <script src="import.js" crossorigin="anonymous"></script>
     </div>
   </main>
       <footer>
