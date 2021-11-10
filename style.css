@@ -576,3 +576,20 @@ h2{
 	border-radius: 3px;
 	text-transform: uppercase;
 }
+
+.import{
+  size: 250px;
+  display: inline-block;
+  margin: 75px;
+  padding: 10px;
+}
+
+.download{
+  margin: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.fas.fa-desktop.fa-10x{
+  padding-bottom: 20px;
+}

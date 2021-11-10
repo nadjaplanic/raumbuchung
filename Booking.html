@@ -15,8 +15,8 @@
   <nav>
     <ul class="nav nav-pills nav-fill">
         <li><a class="nav-item nav-link" href="Index.html">Übersicht</a></li>
-        <li><a class="nav-item nav-link" href="Booking.html">Buchung</a></li>
-        <li><a class="nav-item nav-link active" href="Export.html">Export</a></li>
+        <li><a class="nav-item nav-link active" href="BookingImport.html">Buchung</a></li>
+        <li><a class="nav-item nav-link" href="Export.html">Export</a></li>
     </ul>
 </nav>
   <body>
@@ -33,19 +33,36 @@
                 </div>
               <form>
                       <div class="row">
-                        <div class="col-sm-6">
-                          <div class="form-group">
-                            <span class="form-label">Raum</span>
-                            <input class="form-control" type="text" placeholder="Wählen Sie Raum">
+                          <div class="dropdown-menu">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dropdown button
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Raum 1</a>
+                              <a class="dropdown-item" href="#">Raum 2</a>
+                              <a class="dropdown-item" href="#">Raum 3</a>
+                              <a class="dropdown-item" href="#">Raum 4</a>
+                              <a class="dropdown-item" href="#">Raum 5</a>
+                              <a class="dropdown-item" href="#">Raum 6</a>
+                              <a class="dropdown-item" href="#">Raum 7</a>
+                              <a class="dropdown-item" href="#">Raum 8</a>
+                              <a class="dropdown-item" href="#">Raum 9</a>
+                              <a class="dropdown-item" href="#">Raum 10</a>
+                              <a class="dropdown-item" href="#">Raum 11</a>
+                              <a class="dropdown-item" href="#">Raum 12</a>
+                            </select>
                           </div>
                         </div>
+              
                       <div class="col-sm-6">
                         <div class="form-group">
                           <span class="form-label">Dozent</span>
                           <input class="form-control" type="email" placeholder="Wählen Sie denn Dozenten">
                         </div>
                       </div>
+
                       </div>
+
                       <div class="row">
                       <div class="col-sm-6">
                         <div class="form-group">
@@ -61,6 +78,7 @@
                               <input class="form-control" type="date" required>
                             </div>
                           </div>
+                          <hr>
                               <div class="col-sm-6">
                                 <div class="form-group">
                                   <span class="form-label">Start Uhrzeit:</span>
@@ -73,7 +91,7 @@
                                     <option>6:00</option>
                                     <option>7:00</option>
                                     <option>8:00</option>
-                                    <option>9:00</option>
+                                    <option selected>9:00</option>
                                     <option>10:00</option>
                                     <option>11:00</option>
                                     <option>12:00</option>
@@ -114,7 +132,7 @@
                                     <option>15:00</option>
                                     <option>16:00</option>
                                     <option>17:00</option>
-                                    <option>18:00</option>
+                                    <option selected>18:00</option>
                                     <option>19:00</option>
                                     <option>20:00</option>
                                     <option>21:00</option>
